@@ -1,0 +1,194 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: Stay Classy SLDT;
+    src: url(../font/stay_classy_sldt);
+}
+
+@media screen and (min-width: 1700px) {
+    body {
+        font-size: 1.2em;
+    }
+}
+
+.txt-blue {
+    color: #0d8491;
+}
+
+/*panel size*/
+.size-h {
+    height: 100vh;
+}
+
+@media screen and (max-height: 700px) {
+    .size-h {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .size-h {
+        height: auto;
+    }
+}
+
+/*panel size-end*/
+/*panel color*/
+.leftPanel-gray {
+    background-color: #b9bbbe;
+    color: white;
+}
+
+.rightPanel-gray {
+    background-color: #b9bbbe;
+    color: black;
+}
+
+.leftPanel-white {
+    background-color: white;
+    color: black;
+}
+
+.rightPanel-white {
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width: 767px) {
+    .leftPanel-white {
+        background-color: #b9bbbe;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .rightPanel-gray {
+        background-color: white;
+    }
+}
+
+/*panel color-end*/
+/*left panel title*/
+.title {
+    font-family: Stay Classy SLDT;
+    font-size: 6vw;
+    margin-top: 50%;
+    margin-bottom: 35%;
+}
+
+@media screen and (max-width: 770px) {
+    .title {
+        font-size: 80px;
+    }
+}
+
+/*left panel title-end*/
+/*contact icons*/
+.icons {
+    position: absolute;
+    bottom: 2.5%;
+    width: 90%;
+}
+
+.contact-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    border: 1px solid black;
+    padding-top: 20%;
+    color: black;
+    font-size: 1.6em;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+}
+
+.contact-icon:hover {
+    color: #565656;
+    border: 1px solid #565656;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+}
+
+/*contact icons-end*/
+/*about image*/
+.about-img {
+    width: 24%;
+    margin-left: 38%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .about-img {
+        width: 40%;
+        margin-left: 30%;
+    }
+}
+
+/*about image-end*/
+/*course images*/
+.course-panel {
+    text-align: center;
+    border-radius: 4px;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+}
+
+.course-panel:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .4s ease;
+}
+
+.middle {
+    transition: .4s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .image {
+    opacity: 0.6;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    color: #303030;
+    font-size: 16px;
+    text-shadow: 3px 3px 8px #050505;
+}
+
+/*course images-end*/

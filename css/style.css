@@ -1,14 +1,18 @@
 html, body {
+/*
     width: 100%;
     height: 100%;
+*/
     position: relative;
     font-size: 16px;
 }
 
+/*
 @font-face {
     font-family: Stay Classy SLDT;
     src: url(../font/stay_classy_sldt);
 }
+*/
 
 @media screen and (min-width: 1700px) {
     body {
@@ -75,10 +79,11 @@ html, body {
 /*panel color-end*/
 /*left panel title*/
 .title {
-    font-family: Stay Classy SLDT;
-    font-size: 6vw;
+    font-family: PT Sans Narrow;
+    font-size: 5vw;
     margin-top: 50%;
     margin-bottom: 35%;
+    color: rgb(50,50,50);
 }
 
 @media screen and (max-width: 770px) {
